@@ -128,12 +128,10 @@ const playRound = () => {
         if (player.scoreCount > 21) {
           console.log('Dealer goes bust!')
           console.log('Dealer\'s cards', dealer.cards)
-        }
-        else if (player.scoreCount === 21) {
+        } else if (player.scoreCount === 21) {
           console.log('Dealer gets 21')
           console.log('Dealer\'s cards', dealer.cards)
-        }
-        else {
+        } else {
           console.log(`Dealer's final score is ${player.scoreCount}`)
           console.log('Dealer\'s cards', dealer.cards)
         }
